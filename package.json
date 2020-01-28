@@ -4,7 +4,8 @@
   "description": "Elastic search via GraphQL",
   "files": [
     "lib",
-    "mjs"
+    "mjs",
+    "src"
   ],
   "main": "lib/index.js",
   "module": "mjs/index.mjs",
