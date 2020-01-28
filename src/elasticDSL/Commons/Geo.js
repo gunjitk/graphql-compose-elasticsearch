@@ -15,8 +15,8 @@ export const ElasticGeoPointType = new GraphQLScalarType({
   description: desc(
     `
     Elastic Search GeoPoint Type.
-    Object format: { "lat" : 52.3760, "lon" : 4.894 }.
-    String format (lat, lon): "52.3760, 4.894".
+    Object format: { lat : 52.3760, lon : 4.894 }.
+    String format (lat, lon): 52.3760, 4.894.
     Array GeoJson format (lat, lon): [4.894, 52.3760]
   `
   ),

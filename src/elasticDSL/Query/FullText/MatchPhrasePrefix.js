@@ -14,7 +14,7 @@ export function getMatchPhrasePrefixITC<TContext>(
   const description = desc(
     `
     The match_phrase_prefix is the same as match_phrase, except that it allows
-    for prefix matches on the last term in the text. Eg "quick brown f"
+    for prefix matches on the last term in the text. Eg quick brown f
     [Documentation](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-match-query-phrase-prefix.html)
   `
   );

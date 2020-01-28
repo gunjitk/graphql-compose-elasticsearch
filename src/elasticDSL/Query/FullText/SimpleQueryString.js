@@ -12,7 +12,7 @@ export function getSimpleQueryStringITC<TContext>(
     A query that uses the SimpleQueryParser to parse its context.
     Unlike the regular query_string query, the simple_query_string query
     will never throw an exception, and discards invalid parts of the query.
-    Eg. "this AND that OR thus" or "(content:this OR name:this) AND (content:that OR name:that)"
+    Eg. this AND that OR thus or (content:this OR name:this) AND (content:that OR name:that)
     [Documentation](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-simple-query-string-query.html)
   `
   );

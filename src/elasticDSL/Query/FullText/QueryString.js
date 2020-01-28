@@ -10,7 +10,7 @@ export function getQueryStringITC<TContext>(
   const description = desc(
     `
     A query that uses a query parser in order to parse its content.
-    Eg. "this AND that OR thus" or "(content:this OR name:this) AND (content:that OR name:that)"
+    Eg. this AND that OR thus or (content:this OR name:this) AND (content:that OR name:that)
     [Documentation](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html)
   `
   );
