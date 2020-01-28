@@ -8,7 +8,7 @@
     "src"
   ],
   "main": "src/index.js",
-  "module": "mjs/index.mjs",
+  "module": "src/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/nodkz/graphql-compose-elasticsearch.git"
