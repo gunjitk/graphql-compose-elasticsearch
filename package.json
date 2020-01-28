@@ -7,7 +7,7 @@
     "mjs",
     "src"
   ],
-  "main": "lib/index.js",
+  "main": "src/index.js",
   "module": "mjs/index.mjs",
   "repository": {
     "type": "git",
